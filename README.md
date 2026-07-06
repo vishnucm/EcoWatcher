@@ -3,9 +3,23 @@
 > **Kaggle 5-Day AI Agents Intensive — Vibe Coding Capstone Project**
 > Track: Agents for Good (Environmental Sustainability & Circular Economy)
 
-EcoWatcher is an advanced, **4-Agent AI system** designed to optimize the **3Rs of Circular Economy** (Reduce, Reuse, Recycle). Paste unstructured waste descriptions into our dynamic, animated dashboard and let the AI pipeline classify materials, generate creative upcycling blueprints, verify compliance with local municipal recycling protocols, and actively search the live web for local scrap dealers near you. 
+**A privacy-first, multi-agent AI pipeline that transforms unstructured waste data into actionable circular economy solutions.**
 
-All of this is done while rigorously protecting your privacy using a built-in security sentry.
+---
+
+## 🛑 The Problem
+Every day, millions of tons of reusable and recyclable materials end up in landfills because individuals and businesses lack the specific, localized knowledge required to properly upcycle or recycle them. Complex municipal recycling rules and the difficulty of finding local scrap dealers create high friction for sustainable waste management. Furthermore, analyzing personal waste logs often risks exposing sensitive Personally Identifiable Information (PII) to third-party AI models.
+
+## 💡 The Solution
+EcoWatcher is an advanced, **4-Agent AI system** designed to optimize the **3Rs of Circular Economy** (Reduce, Reuse, Recycle) by removing all friction from the process. 
+
+Paste unstructured waste descriptions into our dynamic, animated dashboard and let the AI pipeline automatically:
+1. **Classify** materials and identify their hazard levels.
+2. **Generate** creative, step-by-step upcycling blueprints.
+3. **Verify** compliance with strict local municipal recycling protocols.
+4. **Locate** actual, real-world scrap dealers near you using live web search.
+
+All of this is accomplished while rigorously protecting your privacy using a built-in security sentry that scrubs PII before any data leaves your machine.
 
 ---
 
