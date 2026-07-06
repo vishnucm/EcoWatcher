@@ -19,7 +19,7 @@ Paste unstructured waste descriptions into our dynamic, animated dashboard and l
 3. **Verify** compliance with strict local municipal recycling protocols.
 4. **Locate** actual, real-world scrap dealers near you using live web search.
 
-All of this is accomplished while rigorously protecting your privacy using a built-in security sentry that scrubs PII before any data leaves your machine.
+All of this is accomplished while rigorously protecting your privacy using a built-in Watcher Shield that scrubs PII before any data leaves your machine.
 
 ---
 
@@ -41,7 +41,7 @@ graph TD
     A[User Input + Location] --> B
     
     subgraph Privacy
-    B[🛡️ Security Sentry <br> <i>Presidio PII Masking</i>]
+    B[🛡️ Watcher Shield <br> <i>Presidio PII Masking</i>]
     end
     
     B -->|Sanitized Payload| C
@@ -140,7 +140,7 @@ The dashboard will open at `http://localhost:8501`.
 
 ## 🔒 Security Features (Day 4)
 
-The security sentry scans for:
+The Watcher Shield scans for:
 - 🔑 API keys and secret tokens (AWS, generic)
 - 🔐 Passwords and credentials
 - 🆔 Social Security Numbers (SSN)
@@ -148,7 +148,7 @@ The security sentry scans for:
 - 📞 Phone numbers (US/international)
 - 📧 Email addresses
 
-All detected sensitive data is masked with `[REDACTED_DATA]` tokens **before** any data is transmitted to the Google GenAI API. An interception log is available directly in the UI under the "🛡️ Security Sentry" tab.
+All detected sensitive data is masked with `[REDACTED_DATA]` tokens **before** any data is transmitted to the Google GenAI API. An interception log is available directly in the UI under the "🛡️ Watcher Shield" tab.
 
 ---
 

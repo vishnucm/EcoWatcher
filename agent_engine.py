@@ -580,7 +580,7 @@ def run_pipeline(sanitized_input: str, location: str = "") -> PipelineResult:
     #
     # Each agent's output is validated before handoff to the next agent.
     # The pipeline collects latency metrics and error states for the
-    # operational sentry dashboard.
+    # operational Watcher Shield dashboard.
 
     Args:
         sanitized_input: The security-scanned user input (from security_guardrails.py).

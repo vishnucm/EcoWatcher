@@ -1,5 +1,5 @@
 """
-EcoWatcher — Security & Privacy Sentry Module
+EcoWatcher — Security & Privacy Watcher Shield Module
 ===============================================
 # Day 4 Concept: Pre-processing Privacy Guardrail
 # Day 4 Concept: Defensive Input Sanitization Before External API Calls
@@ -36,7 +36,7 @@ class SecurityScanResult:
         redaction_count: Total number of individual redactions applied.
         scan_latency_ms: Wall-clock time consumed by the scan in milliseconds.
         detailed_log: Ordered list of (threat_type, matched_snippet) tuples
-                      for the operational sentry dashboard.
+                      for the operational Watcher Shield dashboard.
     """
     original_input: str = ""
     sanitized_input: str = ""
@@ -213,7 +213,7 @@ if __name__ == "__main__":
         "and password=SuperSecret123!"
     )
     print("=" * 70)
-    print("EcoWatcher Security Sentry — Standalone Test")
+    print("EcoWatcher Watcher Shield — Standalone Test")
     print("=" * 70)
     print(f"\n[RAW INPUT]\n{test_input}\n")
 

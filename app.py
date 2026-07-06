@@ -2,7 +2,7 @@
 EcoWatcher — Streamlit Dashboard Interface
 ============================================
 # Day 5 Concept: Deployable User Interface & Agent Skills Demo
-# Day 4 Concept: Security Sentry Visualization
+# Day 4 Concept: Watcher Shield Visualization
 # Day 3 Concept: Multi-Agent Pipeline Integration
 # Day 2 Concept: MCP Tool Results Rendering
 
@@ -567,7 +567,7 @@ st.markdown(f"""
     <div class="feature-row reverse">
         <div class="feature-text">
             <h3>🛡️ Security & Privacy Guardrails</h3>
-            <p>Data privacy is critical. Our offline <strong>Security Sentry</strong> intercepts and masks personally identifiable information (PII) like emails, SSNs, and API keys before any data is sent to the LLM cloud environment.</p>
+            <p>Data privacy is critical. Our offline <strong>Watcher Shield</strong> intercepts and masks personally identifiable information (PII) like emails, SSNs, and API keys before any data is sent to the LLM cloud environment.</p>
         </div>
         {feat_sec_img}
     </div>
@@ -635,7 +635,7 @@ if process_clicked:
     # ===================================================================
     # PHASE 1: Security Pre-Processing
     # ===================================================================
-    with st.spinner("🛡️ Running security sentry scan..."):
+    with st.spinner("🛡️ Running Watcher Shield scan..."):
         st.session_state.security_result = execute_security_scan(user_input)
 
     # ===================================================================
@@ -715,7 +715,7 @@ if "security_result" in st.session_state:
         "♻️ Upcycle Blueprints",
         "📍 Local Triage Protocols",
         "🗺️ Local Scrap Dealers",
-        "🛡️ Sentry Logs",
+        "🛡️ Watcher Shield Logs",
     ])
 
     # --- TAB 1: Agent B ---
@@ -778,7 +778,7 @@ if "security_result" in st.session_state:
             else:
                 st.markdown('<div class="alert-box alert-warn">⚠️ No data available.</div>', unsafe_allow_html=True)
 
-    # --- TAB 3: Security Sentry ---
+    # --- TAB 3: Watcher Shield ---
     with tab3:
         if security_result.security_breach:
             st.markdown(
