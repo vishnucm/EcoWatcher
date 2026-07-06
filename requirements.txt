@@ -1,0 +1,9 @@
+# EcoWatcher — Dependencies
+# Kaggle 5-Day AI Agents Intensive Capstone Project
+# ===================================================
+
+# Day 1 Concept: Google GenAI SDK for Gemini API access
+google-genai>=1.0.0
+
+# Day 5 Concept: Streamlit for the deployable dashboard UI
+streamlit>=1.35.0

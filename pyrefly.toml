@@ -1,0 +1,4 @@
+[tool.pyrefly]
+pythonPath = "venv/Scripts/python.exe"
+venvPath = "."
+venv = "venv"

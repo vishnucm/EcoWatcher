@@ -1,0 +1,60 @@
+{
+  "_metadata": {
+    "source": "EcoWatcher Regional Circular Economy Resource Index",
+    "version": "1.0.0",
+    "description": "Local municipal waste processing rules and upcycling blueprints for common household and office waste streams.",
+    "coverage_region": "Default Municipal District",
+    "last_updated": "2026-07-06",
+    "day2_concept": "MCP Local Tool Data Source — This JSON file is the grounded knowledge base that Agent C queries via the MCP tool binding."
+  },
+  "waste_registry": {
+    "Glass Jars": {
+      "category": "Recyclable Glass",
+      "local_municipal_action": "Rinse thoroughly to remove food residue. Remove metal lids and caps (process separately as scrap metal). Place in designated GREEN-LID recycling bins. Collected bi-weekly by municipal glass reclamation trucks. Processed at regional glass cullet facility for re-melting into new containers.",
+      "upcycle_blueprint_steps": [
+        "Step 1: Clean jar interior with warm soapy water and remove all label adhesive using cooking oil.",
+        "Step 2: Sterilize by boiling in water for 10 minutes, then air-dry completely.",
+        "Step 3: Apply frosted glass spray paint on exterior for a matte decorative finish.",
+        "Step 4: Insert a battery-operated LED tea light or small succulent plant with drainage pebbles.",
+        "Step 5: Seal with a fabric lid cover tied with jute twine for a finished upcycled lantern or planter."
+      ],
+      "toxicity_hazard_level": "LOW — Standard soda-lime glass. No chemical leaching risk. Safe for direct skin contact. Wear gloves only if jar is chipped or cracked to avoid lacerations."
+    },
+    "Cardboard Boxes": {
+      "category": "Recyclable Paper Fiber",
+      "local_municipal_action": "Flatten all boxes to reduce volume. Remove all tape, staples, and non-paper packing materials (bubble wrap, styrofoam). Stack and tie with string. Place in BLUE-LID recycling bins. Collected weekly. Wax-coated or grease-saturated cardboard (e.g., pizza boxes) must be composted, NOT recycled.",
+      "upcycle_blueprint_steps": [
+        "Step 1: Select structurally intact boxes. Cut open and flatten into uniform rectangular panels.",
+        "Step 2: Measure and mark panels for a desktop organizer template: two side walls (15x10cm), one back wall (30x10cm), one base (30x15cm).",
+        "Step 3: Score fold lines with a blunt knife and fold into shape. Secure joints with non-toxic wood glue.",
+        "Step 4: Wrap exterior with decorative kraft paper or leftover fabric scraps using spray adhesive.",
+        "Step 5: Apply two coats of water-based polyurethane sealant for moisture resistance and durability."
+      ],
+      "toxicity_hazard_level": "LOW — Clean cardboard is inert and biodegradable. Avoid burning printed cardboard as inks may release volatile organic compounds (VOCs). Composting is safe for uncoated varieties."
+    },
+    "Broken Electronics": {
+      "category": "Hazardous E-Waste (WEEE Category)",
+      "local_municipal_action": "DO NOT place in any standard recycling or general waste bin. Broken electronics are classified as Waste Electrical and Electronic Equipment (WEEE). Contact municipal e-waste collection hotline to schedule a free curbside pickup or drop off at the nearest certified e-waste processing center. Lithium-ion batteries MUST be removed and deposited in battery-specific collection points at fire stations or libraries. Violations incur municipal fines up to $250.",
+      "upcycle_blueprint_steps": [
+        "Step 1: Identify non-hazardous cosmetic components only (plastic casings, decorative bezels, keycaps). NEVER disassemble CRT monitors or lithium battery packs.",
+        "Step 2: Remove cosmetic shell using precision screwdrivers. Clean with isopropyl alcohol wipes.",
+        "Step 3: For keyboard keycaps — arrange on a picture frame backing to create typographic wall art.",
+        "Step 4: For plastic casings — cut into geometric shapes and assemble into a mosaic coaster set using epoxy resin.",
+        "Step 5: Sand edges smooth, apply acrylic paint, and finish with a clear-coat sealant."
+      ],
+      "toxicity_hazard_level": "HIGH — Contains lead solder, mercury switches, cadmium in NiCd batteries, and brominated flame retardants in circuit boards. NEVER incinerate. NEVER dispose in landfill. Skin contact with leaking battery acid requires immediate medical attention. Full PPE (gloves, mask, eye protection) required for any disassembly."
+    },
+    "Cotton Fabrics": {
+      "category": "Reusable Textile / Compostable Organic Fiber",
+      "local_municipal_action": "Clean, wearable garments should be donated to municipal textile donation bins (located at community centers and supermarket parking lots). Damaged or stained cotton can be deposited in ORANGE textile recycling bags for industrial fiber shredding and conversion into insulation material or industrial cleaning cloths. 100% cotton scraps may also be home-composted. Synthetic blends (polyester-cotton) must NOT be composted.",
+      "upcycle_blueprint_steps": [
+        "Step 1: Sort fabrics by weight and color. Wash and dry thoroughly to prevent mildew.",
+        "Step 2: Cut damaged garments into uniform 10x10cm square patches using fabric shears.",
+        "Step 3: Arrange patches in a pleasing pattern and pin together with a 1cm seam allowance.",
+        "Step 4: Sew patches together using a running stitch or sewing machine to form a patchwork panel.",
+        "Step 5: Back the patchwork panel with a solid cotton sheet and bind edges with bias tape to create a finished quilt, tote bag, or cushion cover."
+      ],
+      "toxicity_hazard_level": "LOW — Natural cotton fiber is non-toxic and biodegradable. Caution: synthetic dyes on colored fabrics may leach during composting. Pre-wash dyed fabrics before composting. Avoid burning synthetic-blend textiles as they release microplastic particulates."
+    }
+  }
+}
