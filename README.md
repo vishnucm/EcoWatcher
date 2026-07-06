@@ -29,7 +29,7 @@ All of this is accomplished while rigorously protecting your privacy using a bui
 2. **Four-Agent Pipeline (ADK):** A robust stateful workflow passing validated structured data from one agent to the next.
 3. **Local Knowledge Base (MCP):** Agent C uses an MCP-style tool to cross-reference AI upcycling suggestions against a strict, verified local JSON registry of municipal rules.
 4. **Google Search Grounding:** Agent D leverages live web search to find actual, real-world scrap dealers based on your location.
-5. **PII Security Guardrails:** Microsoft Presidio actively intercepts and scrubs sensitive personal info (emails, SSNs, API keys) before any data hits the LLM.
+5. **PII Security Guardrails:** A custom Regex engine actively intercepts and scrubs sensitive personal info (emails, SSNs, API keys) before any data hits the LLM.
 6. **Graceful Degradation:** The system intelligently falls back to pre-trained knowledge if the live Google Search quota is exhausted.
 
 ---
@@ -41,7 +41,7 @@ graph TD
     A[User Input + Location] --> B
     
     subgraph Privacy
-    B[🛡️ Watcher Shield <br> <i>Presidio PII Masking</i>]
+    B[🛡️ Watcher Shield <br> <i>Custom PII Masking</i>]
     end
     
     B -->|Sanitized Payload| C
